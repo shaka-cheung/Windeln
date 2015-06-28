@@ -3,6 +3,8 @@ from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from windeln.items import WindelnItem
 from scrapy.selector import Selector
 from windeln.utils import Utils
+from windeln.analyzer import Analyzer
+
 from scrapy.conf import settings
 
 class WindelnSpider(CrawlSpider) :

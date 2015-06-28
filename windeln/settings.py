@@ -31,7 +31,8 @@ ITEM_PIPELINES = {'windeln.pipelines.Pipeline': 100,
 #    'csv':'windeln.pipelines.CSVPipeline',
 #}
 
-DB_PROPERTIES_USER = 'testuser'
-DB_PROPERTIES_PASSWD = 'testuser'
-DB_PROPERTIES_HOST = 'localhost'
-DB_PROPERTIES_DB = 'testdb'
+#mysql configuration
+DB_PROPERTIES_USER = 'root'
+DB_PROPERTIES_PASSWD = 'idp2015'
+DB_PROPERTIES_HOST = '46.38.236.133'
+DB_PROPERTIES_DB = 'impudo'
